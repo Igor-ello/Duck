@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class MuteQuack {
+public class MuteQuack implements QuackBehavior{
+    public void quack() {
+        System.out.println("<< Silence >>");
+    }
 }
